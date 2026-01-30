@@ -1,0 +1,50 @@
+project:
+  resources:
+    - "style_site.scss"
+    - "style_site_dark.scss"
+    - "Resources/Documents"
+  type: website
+  output-dir: public
+website:
+  title: "ENSTA - UFR Mécanique - Palaiseau"
+  description: "ENSTA - UFR Mécanique - Palaiseau's wiki"
+  # site-url: https://alexandredabyseesaram.github.io/
+  navbar:
+    search: true
+ #       text: Resources
+  sidebar:
+    style: "floating"
+    search: true
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Resources"
+        contents:
+          - Seminars.qmd
+          - conferences.qmd
+          - ScientificSocieties.qmd
+      - section: "Tips & Tricks"
+        contents:
+          - Git.qmd
+          - Writing.qmd
+          - Shell.qmd
+          - sDrive.qmd
+          - VSCode.qmd
+          - Zotero.qmd
+  # announcement:
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**New wiki** - The new team's wiki is online ! "
+  #   type: light
+  #   position: below-navbar
+
+format:
+  html:
+    theme:
+      light: [flatly,style_site.scss]
+      dark: [darkly,style_site_dark.scss]
+    css: styles.css
+    toc: true
+
+
+

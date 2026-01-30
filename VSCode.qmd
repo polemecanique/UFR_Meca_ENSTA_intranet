@@ -1,0 +1,38 @@
+---
+title: VS Code
+format:
+  html:
+    page-layout: full
+---
+
+Microsoft Visual Studio Code is a nice text (and much more!) editor.
+
+### Installation
+
+To install it on your machine, you can either download from [https://code.visualstudio.com](https://code.visualstudio.com), or use [HomeBrew](https://brew.sh):
+```
+brew install visual-studio-code
+```
+
+### Sync
+
+You can sync preferences across machines by signing in with your GitHub (also owned by Microsoft…) account.
+
+### Plugins
+
+Thanks to plugins, you can use it for many things:
+
+- Coding
+  - Python
+  - GitLens
+  - GitHub Actions
+  - GitLab Workflow
+  - Remote - SSH
+- LaTeX
+  - LaTeX Workshop
+  - Code Spell Checker
+  - Citation Picker for Zotero
+- Jupyter
+  - Jupyter
+- Quarto
+  - Quarto

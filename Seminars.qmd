@@ -1,0 +1,22 @@
+---
+title: Seminars
+format:
+  html:
+    page-layout: full
+---
+
+## UFR Palaiseau seminars
+* The UFR Mecanique organises external seminars on monday afternoons, stay tuned for the schedule. More info on [the seminar series website](https://polemecanique.github.io/UME-meca-seminars/).
+
+##  Local seminars
+* There a several seminars taking place within the Pôle Méca's building, the list of those seminars and info can be found [on the Pôle Meca's website](https://polemecanique.github.io/)
+
+## Other seminars of interest
+
+* Imaging in Paris: [https://imaging-in-paris.github.io](https://imaging-in-paris.github.io)
+* Physics-Biology Interface Seminar: [http://www.lptms.universite-paris-saclay.fr/seminaires/semphysbio](http://www.lptms.universite-paris-saclay.fr/seminaires/semphysbio)
+* Idefix seminar: [https://idefix.gitlabpages.inria.fr](https://idefix.gitlabpages.inria.fr)
+* Pôle Mécanique internal seminars: [https://polemecanique.github.io/internal_seminars/](https://polemecanique.github.io/internal_seminars/)
+  * You can register to present as well (two possible formats: a shorter 20 min or longer 45 min presentation)
+
+

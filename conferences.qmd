@@ -1,0 +1,8 @@
+---
+title: Conferences
+format:
+  html:
+    page-layout: full
+---
+
+List of incomming conferences of interest ! 

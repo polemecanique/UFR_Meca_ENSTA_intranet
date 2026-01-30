@@ -1,0 +1,23 @@
+---
+title: Internal reports
+format:
+  html:
+    page-layout: full
+---
+
+### {{< iconify fa-solid:book >}} &nbsp; The reduced-order modelling project
+
+- [Summer 2024](Resources/Documents/Reports/2024/Postdocs.pdf)
+
+<embed src="Resources/Documents/Reports/2024/Postdocs.pdf" width="100%" height="600px" type="application/pdf">
+
+
+### {{< iconify fa-solid:book >}} &nbsp; MLQ-CT
+
+- [2025-04-04](Resources/Documents/Presentations/2025/MLQ-CT-alex-20250404/2025-04-04.html){target="_blank"}
+
+
+- [2024-09-16](Resources/Documents/Presentations/2024/LMS-alex-MLQ-CT2024-09-16.pdf)
+
+<embed src="Resources/Documents/Presentations/2024/LMS-alex-MLQ-CT2024-09-16.pdf" width="100%" height="600px" type="application/pdf">
+

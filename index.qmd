@@ -1,0 +1,22 @@
+---
+title: Welcome to the UFR Meca Palaiseau's wiki' 
+image: Resources/Images/IPP_Cross_BG.png
+toc: false
+about:
+  template: marquee
+  links:
+      - text: "{{< iconify fa-brands:gitlab >}} &nbsp; Gitlab"
+      - href: https://polemecanique.github.io/UFR_Meca_Pal_intranet
+format:
+  html:
+    page-layout: full
+---
+## {{< iconify fa6-solid:circle-info >}} &nbsp; How to contribute:
+
+### {{< iconify fa6-solid:align-left >}} &nbsp; Change text
+
+Just open the corresponding markdown file in the GitHub, modify it however you want and commit the changes, that's it!
+
+### {{< iconify fa6-solid:paperclip >}} &nbsp; Add resources
+
+Add the resource (pdf, svg, etc.) in the `Resources/Documents/YourSubfolderOfChoice` folder and reference it in markdown using, `[text](Resources/Documents/YourSubfolderOfChoice/YourFile)`, then commit the changes, done!

@@ -1,0 +1,24 @@
+---
+title: Zotero
+format:
+  html:
+    page-layout: full
+---
+
+Zotero is a nice open-source software to manage bibliography.
+
+### Misc options (Preferences -> Advanced -> Config Editor)
+
+- I usually set `intl.locale.requested` to `en-GB` (otherwise the dates are in the horrendous `en-US` format)
+- I also set `extensions.zotero.recursiveCollections` to `true`
+
+### BibTeX export
+
+[The BetterBibTeX plugin](https://retorque.re/zotero-better-bibtex) allows to export your library in bibtex or biblatex format.
+If you choose "Keep updated" it will update the bib file every time you modify your library.
+
+BetterBibTeX preferences:
+
+- Citation key formula = `auth+year+journal.abbr.alphanum`
+- If both DOI & URL, export DOI only
+- Fields to omit from export: `extra, issn, isbn, timestamp, file, eprinttype, eprint, keywords, month, language, abstract, urldate, urlmonth, annotation, langid`

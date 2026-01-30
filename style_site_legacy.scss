@@ -1,0 +1,121 @@
+/*-- scss:defaults --*/
+// Base document colors
+// $body-bg: #f3f3f3;
+// $body-color: #212121ff;
+// $link-color: #b5171d;
+$link-color: #bf8f43ff;
+// $navbar-bg: #27466bff;
+$navbar-bg: #00436d;
+// $h2-font-size: 20px;
+
+
+/*-- scss:rules --*/
+
+
+
+h1 {
+  color: #27466bff;
+}
+
+h2 {
+  color: rgb(43, 80, 122);
+}
+
+h3 {
+  color: rgb(43, 80, 122);
+}
+
+.navbar {
+  background-image: url("Resources/Images/BackGroundCode.png");
+  // background-color: #00436d;
+  background-size: cover; /* Adjust as needed */
+  background-position: center;
+  // height: 120px; /* Adjust this value as needed */
+  display: flex;
+  align-items: center; /* Center-aligns the content vertically */
+}
+
+body {
+  // font-weight: 380; 
+  // font-size: medium;
+  text-align: justify;
+}
+
+.mark-orange {
+  // color: #ffb700;
+  background-color: #fff3e0;
+  padding: 0.2em ;
+  border-radius: 4px;
+}
+
+
+// SCSS for rounded box buttons
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  a.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px; // Makes the button rounded
+    background-color: #00436d; // Primary color
+    color: white;
+    text-decoration: none;
+    // font-size: 1rem;
+    // font-weight: 500;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+    &:hover {
+      background-color: #00436d; // Darker shade on hover
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); // Adds a shadow
+      font-size: 0.97rem;
+    }
+
+    &:active {
+      background-color: #00436d; // Even darker for active state
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); // Inset shadow
+      font-size: 0.97rem;
+    }
+
+    span.button-text {
+      margin-left: 0.5rem; // Spacing between icon and text
+    }
+  }
+}
+
+.callout {
+  margin-top: 1em;
+  margin-bottom: 1em;  
+  border-radius: .25rem;
+}
+
+.callout .callout-header {
+
+  /* color: #eb1717; */
+  font-family: bitter;
+  font-size: 0.4rem;
+  font-weight: 650;
+  color: rgba(151, 190, 214, 0.9);
+  /* body-bg: #7f401cff; */
+  /* background-color: rgb(62, 194, 18); */
+
+}
+
+.callout.callout-style-simple { 
+  padding: 0em 1.8em;
+  border-left: solid #eb1717 0rem;
+  border-right: solid 0px silver;
+  border-top: solid 0px rgb(209, 6, 6);
+  border-bottom: solid 0px silver;
+  /* display: flex; */
+}
+
+.callout.callout-style-simple .callout-body {
+  font-size: 0.8rem;
+  font-weight: 350;
+  /* body-bg: #7f401cff; */
+  background-color: rgba(0, 67, 109, 0.03);
+}

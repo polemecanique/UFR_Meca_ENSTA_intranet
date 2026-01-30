@@ -1,0 +1,48 @@
+---
+title: Scientific societies
+format:
+  html:
+    page-layout: full
+---
+
+
+### {{< iconify fa-solid:globe >}} &nbsp; International
+
+* [Biophysical Society (BS)](https://www.biophysics.org)
+* [The Medical Image Computing and Computer Assisted Intervention Society (MICCAI)](http://www.miccai.org)
+* [International Society for Magnetic Resonance in Medicine (ISMRM)](https://www.ismrm.org)
+* [Society for Cardiovascular Magnetic Resonance (SCMR)](https://scmr.org)
+* [International Association for Computational Mechanics (IACM)](https://iacm.info/)
+* [International Union of Theoretical and Applied Mechanics (IUTAM)](https://iutam.org)
+* [International Association for Applied Mathematics and Mechanics (GAMM)](https://www.gamm-ev.de)
+* [International Society of Biomechanics (ISB)](https://isbweb.org)
+* [World Council of Biomechanics (WCB)](http://www.wc-biomechanics.org)
+* [International Society for Porous Media (InterPore)](https://www.interpore.org)
+
+
+### {{< iconify fa6-solid:earth-americas >}} &nbsp; US
+
+* [United States Association for Computational Mechanics (USACM)](http://www.usacm.org)
+* [American Society of Mechanical Engineers (ASME)](https://www.asme.org)
+* [American Society of Biomechanics (ASB)](http://www.asbweb.org)
+* [Society of Engineering Science (SES)](http://ses.egr.uh.edu)
+* [Biomedical Engineering Society (BMES)](https://www.bmes.org)
+
+
+### {{< iconify fa6-solid:earth-europe >}} &nbsp; Europe
+
+* [European Community on COmputational Methods in Applied Sciences (ECCOMAS)](http://www.eccomas.org)
+* [European Society of Biomechanics (ESB)](https://esbiomech.org)
+
+
+### {{< iconify fa6-solid:location-dot >}} &nbsp; France
+
+* [Computational Structural Mechanics Association (CSMA)](http://www.csma.fr)
+* [Association Française de Mécanique (AFM)](http://www.afm.asso.fr)
+* [Groupe Français de Mécanique des Matériaux (Mecamat)](http://www.mecamat.asso.fr)
+* [Société de Biomécanique (SB)](http://www.biomecanique.org)
+* [GdR Mécanique des matériaux et fluides biologiques (MécaBio)](http://www-liphy.ujf-grenoble.fr/gdr-mecabio)
+* [GdR Physique de la cellule au tissu (CellTiss)](http://nonlineaire.univ-lille1.fr/GDR3070)
+* [GdR Ingénierie auGmentée par la donnée, l’Apprentissage et l’IA (I-GAIA)](https://gdr.igaia.cnrs.fr)
+* [PhotoMechanics Association (PMa)](https://photomeca.cnrs.fr)
+* [France InterPore Chapter (FIC)](https://www.franceinterporechapter.fr)

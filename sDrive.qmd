@@ -1,0 +1,10 @@
+
+---
+title: sDrive
+format:
+  html:
+    page-layout: full
+---
+
+
+[sDrive](https://sdrive.cnrs.fr) is a synchronization tool offered by CNRS.

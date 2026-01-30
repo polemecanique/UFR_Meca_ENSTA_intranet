@@ -1,0 +1,18 @@
+---
+title: Git
+format:
+  html:
+    page-layout: full
+---
+
+[Git](https://git-scm.com) is a useful version control manager.
+
+[Pro Git](https://git-scm.com/book) is the ultimate git reference.
+
+A tutorial made at INRIA: [https://tutorial.gitlabpages.inria.fr/git](https://tutorial.gitlabpages.inria.fr/git)
+
+To learn `git`, there are also multiple games:
+
+- [https://learngitbranching.js.org](https://learngitbranching.js.org)
+- [https://ohmygit.org](https://ohmygit.org)
+

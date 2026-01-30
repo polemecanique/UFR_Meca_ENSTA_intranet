@@ -1,0 +1,66 @@
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: #222222ff;
+// $body-color: #f3f3f3;
+$body-color: #f3f3f3;
+$link-color: rgb(184, 211, 225);
+$navbar-bg: rgb(0, 103, 127);
+$warning_color: #ffb700;
+
+/*-- scss:rules --*/
+
+h2 {
+    color: rgb(184, 211, 225);
+  }
+
+  h1 {
+    color: rgb(184, 211, 225);
+  }
+
+  .mark-orange {
+    // color: #ffb700;
+    background-color: #ffb700;
+    // padding: 0.2em 0.2em;
+    border-radius: 4px;
+  }
+
+
+  body {
+    // font-weight: 380; 
+    // font-size: medium;
+    text-align: justify;
+  }
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+  
+  .callout .callout-header {
+  
+    /* color: #eb1717; */
+    font-family: bitter;
+    font-size: 0.4rem;
+    font-weight: 650;
+    color: rgba(0, 67, 109, 0.9);
+    /* body-bg: #7f401cff; */
+    /* background-color: rgb(62, 194, 18); */
+  
+  }
+  
+  .callout.callout-style-simple { 
+    padding: 0em 1.8em;
+    border-left: solid #eb1717 0rem;
+    border-right: solid 0px silver;
+    border-top: solid 0px rgb(209, 6, 6);
+    border-bottom: solid 0px silver;
+    /* display: flex; */
+  }
+  
+  .callout.callout-style-simple .callout-body {
+    font-size: 0.8rem;
+    font-weight: 350;
+    /* body-bg: #7f401cff; */
+    background-color: rgba(0, 67, 109, 0.03);
+  }

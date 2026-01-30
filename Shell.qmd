@@ -1,0 +1,72 @@
+---
+title: Shell
+format:
+  html:
+    page-layout: full
+---
+
+### Games
+
+Check out [https://www.learnshell.org](https://www.learnshell.org) to learn online!
+
+### Navigation
+
+- `pwd`: Print the current working directory.
+- `ls`: List files and directories in the current directory.
+  - `ls -a`: Show hidden files.
+  - `ls -l`: Detailed list view.
+- `cd [path]`: Change directory.
+  - `cd ..`: Go up one directory level.
+  - `cd ~`: Go to the home directory.
+
+### File and Directory Operations
+
+- `touch [file]`: Create a new empty file.
+- `mkdir [directory]`: Create a new directory.
+- `cp [source] [destination]`: Copy files or directories.
+  - `cp -r [directory] [destination]`: Copy directories recursively.
+- `mv [source] [destination]`: Move or rename files/directories.
+- `rm [file]`: Delete a file.
+  - `rm -r [directory]`: Delete a directory and its contents.
+- `rsync [options] [source] [destination]`: Synchronize files/directories over ssh.
+  - `rsync -av [source] [destination]`: Archive mode (preserves permissions, timestamps) with verbose output.
+  - `rsync -az [source] [destination]`: Compress data during transfer.
+  - `rsync --progress [source] [destination]`: Show progress during synchronization.
+
+### Viewing File Contents
+
+- `cat [file]`: Display the entire content of a file.
+- `vim [file]`: Open the file in vim text editor
+
+### Permissions
+
+- `chmod [permissions] [file]`: Change file permissions.
+  - Example: `chmod 755 script.sh`.
+- `chown [user]:[group] [file]`: Change file owner.
+
+### Searching and Finding
+
+- `find [path] -name [pattern]`: Search for files by name.
+- `grep [pattern] [file]`: Search for a pattern in a file.
+  - `grep -r [pattern] [directory]`: Search recursively.
+
+### Networking
+
+- `ping [hostname]`: Check connectivity to a host.
+- `curl [url]`: Fetch data from a URL.
+
+### Miscellaneous
+
+- `echo [text]`: Print text to the terminal.
+- `history`: Show command history.
+- `clear`: Clear the terminal screen.
+
+### bash/zsh configuration
+
+- **zsh** `bindkey \^U backward-kill-line` add this to .zshrc to bring back bash command `Ctrl+U`
+  - Deletes all text on the current command line from the cursor position to the beginning of the line
+- navigating through history using substring searches:
+  - **zsh** `bindkey "^[[B" history-substring-search-down`
+  - **zsh** `bindkey "^[[A" history-substring-search-up` 
+  - **bash** "\e[B": history-search-forward 
+  - **bash** "\e[A": history-search-backward 
