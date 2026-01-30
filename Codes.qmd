@@ -6,7 +6,7 @@ format:
     page-layout: full
 ---
 
-A list of the code developped in the UFR tha are open-source.
+A list of the code developped in the UFR that are open-source.
 
 ### gcrack – Solver for Linear Elastic Fracture Mechanics
 
