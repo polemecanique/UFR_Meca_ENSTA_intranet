@@ -38,6 +38,8 @@ A list of the code developped in the UFR tha are open-source.
 - Indirect load control via path-following methods.
 - Crack propagation in anisotropic media (work in progress).
 
+---
+
 ### NeuROM - A Reduced-Order modelling solver 
 [![PyPI Downloads](https://img.shields.io/pypi/dm/NeuROM-Py.svg?label=PyPI%20downloads)](
 https://pypi.org/project/NeuROM-Py/)
