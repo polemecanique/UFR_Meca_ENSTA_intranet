@@ -39,14 +39,14 @@ It aims at setting up all the necessary packages and create the base outline of 
 | :--- | :--- | :--- |
 | White | #FFFFFF | (255, 255, 255) |
 | Black | #000000 | (0, 0, 0) |
-| [Dark  blue]{.dark_blue} | #170F39 | (23, 15, 57) |
+| [ENSTA Dark blue]{.dark_blue} | #170F39 | (23, 15, 57) |
 | [Ensta Blue]{.ensta_blue} | #3A46F5 | (58, 70, 245) |
 | [Ensta Orange]{.ensta_orange} | #EF878D | (239, 135, 141) |
 | [Ensta Green]{.ensta_green} | #3E8066 | (62, 128, 102) |
-| [Ensta cyan]{.ensta_cyan} | #3B7698 | (59, 118, 152) |
+| [Ensta Cyan]{.ensta_cyan} | #3B7698 | (59, 118, 152) |
 | [Ensta Indigo]{.ensta_indigo} | #5A5AAE | (90, 90, 174) |
-| [Ensta purple]{.ensta_purple}| #9F5EAF | (159, 94, 175) |
-| [Ensta pink]{.ensta_pink}| #E688F8 | (230, 136, 248) |
+| [Ensta Purple]{.ensta_purple}| #9F5EAF | (159, 94, 175) |
+| [Ensta Pink]{.ensta_pink}| #E688F8 | (230, 136, 248) |
 
 
 :::
