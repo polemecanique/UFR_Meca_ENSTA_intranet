@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to the UFR Meca Palaiseau’s wiki’ – ENSTA - UFR Mécanique - Palaiseau</title>
+<title>Codes – ENSTA - UFR Mécanique - Palaiseau</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -44,7 +45,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-342be624ebb2770ba564830ed9e1dff5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-0715faa752140e48567fb57975080186.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-342be624ebb2770ba564830ed9e1dff5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -261,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Seminars.html">Resources</a></li><li class="breadcrumb-item"><a href="./Codes.html">Codes</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -283,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
@@ -316,7 +345,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Codes.html" class="sidebar-item-text sidebar-link">
+  <a href="./Codes.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Codes</span></a>
   </div>
 </li>
@@ -374,45 +403,83 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#gcrack-solver-for-linear-elastic-fracture-mechanics" id="toc-gcrack-solver-for-linear-elastic-fracture-mechanics" class="nav-link active" data-scroll-target="#gcrack-solver-for-linear-elastic-fracture-mechanics">gcrack – Solver for Linear Elastic Fracture Mechanics</a></li>
+  <li><a href="#fragma-phase-field-fracture-solver" id="toc-fragma-phase-field-fracture-solver" class="nav-link" data-scroll-target="#fragma-phase-field-fracture-solver">fragma – Phase-Field Fracture Solver</a></li>
+  <li><a href="#neurom-daby-seesaramneurom2024a" id="toc-neurom-daby-seesaramneurom2024a" class="nav-link" data-scroll-target="#neurom-daby-seesaramneurom2024a">NeuROM <span class="citation" data-cites="daby-seesaramNeuROM2024a">(<strong>daby-seesaramNeuROM2024a?</strong>)</span></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-marquee column-page-right">
-  <div class="about-image-container">
-    <img src="Resources/Images/IPP_Cross_BG.png" class="about-image " style="width: 100%;">
-  </div>
-  <div class="about-contents">
-    <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-body" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Seminars.html">Resources</a></li><li class="breadcrumb-item"><a href="./Codes.html">Codes</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Welcome to the UFR Meca Palaiseau’s wiki’</h1>
+<h1 class="title">Codes</h1>
 </div>
-<div class="quarto-title-meta column-page-right">
+
+
+
+<div class="quarto-title-meta column-body">
+
+    
+  
+    
   </div>
-</header> <main class="content column-page-right" id="quarto-document-content">
-
-<section id="how-to-contribute" class="level2">
-<h2 data-anchor-id="how-to-contribute"><iconify-icon role="img" inline="" icon="fa6-solid:circle-info" aria-label="Icon circle-info from fa6-solid Iconify.design set." title="Icon circle-info from fa6-solid Iconify.design set."></iconify-icon> &nbsp; How to contribute:</h2>
-<section id="change-text" class="level3">
-<h3 data-anchor-id="change-text"><iconify-icon role="img" inline="" icon="fa6-solid:align-left" aria-label="Icon align-left from fa6-solid Iconify.design set." title="Icon align-left from fa6-solid Iconify.design set."></iconify-icon> &nbsp; Change text</h3>
-<p>Just open the corresponding markdown file in the GitHub, modify it however you want and commit the changes, that’s it!</p>
-</section>
-<section id="add-resources" class="level3">
-<h3 data-anchor-id="add-resources"><iconify-icon role="img" inline="" icon="fa6-solid:paperclip" aria-label="Icon paperclip from fa6-solid Iconify.design set." title="Icon paperclip from fa6-solid Iconify.design set."></iconify-icon> &nbsp; Add resources</h3>
-<p>Add the resource (pdf, svg, etc.) in the <code>Resources/Documents/YourSubfolderOfChoice</code> folder and reference it in markdown using, <code>[text](Resources/Documents/YourSubfolderOfChoice/YourFile)</code>, then commit the changes, done!</p>
+  
 
 
+</header>
+
+
+<section id="gcrack-solver-for-linear-elastic-fracture-mechanics" class="level3">
+<h3 class="anchored" data-anchor-id="gcrack-solver-for-linear-elastic-fracture-mechanics">gcrack – Solver for Linear Elastic Fracture Mechanics</h3>
+<p><a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" class="img-fluid" alt="License"></a> <a href="https://github.com/floiseau/gcrack"><img src="https://img.shields.io/badge/GitHub-gcrack-blue.png" class="img-fluid" alt="GitHub"></a> <a href="https://pypi.org/project/gcrack/"><img src="https://img.shields.io/badge/PyPI-gcrack-green.png" class="img-fluid" alt="PyPI"></a> <a href="https://floiseau.github.io/gcrack"><img src="https://img.shields.io/badge/Docs-gcrack-blueviolet.png" class="img-fluid" alt="Documentation"></a> <a href="https://doi.org/10.5281/zenodo.18247511"><img src="https://zenodo.org/badge/doi/10.5281/zenodo.18247511.svg" class="img-fluid" alt="Zenodo"></a></p>
+<p><code>gcrack</code> is a finite element solver for <strong>linear elastic fracture mechanics</strong>, developed during my postdoc at <strong>ENSTA (IMSIA)</strong>. It is built on <a href="https://fenicsproject.org/"><code>fenicsx</code></a> and features:</p>
+<ul>
+<li>Incremental crack propagation with indirect load control, ensuring each load step occurs precisely at the propagation threshold.</li>
+<li>Support for arbitrary anisotropic fracture properties, i.e., <span class="math inline">\(G_c(\varphi)\)</span>.</li>
+<li>Basic support for heterogeneous media.</li>
+<li>A modular architecture for easy extension.</li>
+</ul>
+<hr>
 </section>
+<section id="fragma-phase-field-fracture-solver" class="level3">
+<h3 class="anchored" data-anchor-id="fragma-phase-field-fracture-solver">fragma – Phase-Field Fracture Solver</h3>
+<p><a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" class="img-fluid" alt="License"></a> <a href="https://github.com/floiseau/fragma"><img src="https://img.shields.io/badge/GitHub-fragma-blue.png" class="img-fluid" alt="GitHub"></a> <a href="https://pypi.org/project/fragma/"><img src="https://img.shields.io/badge/PyPI-fragma-green.png" class="img-fluid" alt="PyPI"></a> <a href="https://floiseau.github.io/fragma"><img src="https://img.shields.io/badge/Docs-fragma-blueviolet.png" class="img-fluid" alt="Documentation"></a> <a href="https://doi.org/10.5281/zenodo.15654994"><img src="https://zenodo.org/badge/doi/10.5281/zenodo.15654994.svg" class="img-fluid" alt="Zenodo"></a></p>
+<p><code>fragma</code> is a <strong>phase-field fracture solver</strong>, also developed during my postdoc at <strong>ENSTA (IMSIA)</strong> and based on <a href="https://fenicsproject.org/"><code>fenicsx</code></a>. Key features include:</p>
+<ul>
+<li>Indirect load control via path-following methods.</li>
+<li>Crack propagation in anisotropic media (work in progress).</li>
+</ul>
 </section>
-</main> 
-    <div class="about-footer"><div class="about-links">
-  <a href="https://github.com/polemecanique/UFR_Meca_ENSTA_intranet" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+<section id="neurom-daby-seesaramneurom2024a" class="level3">
+<h3 class="anchored" data-anchor-id="neurom-daby-seesaramneurom2024a">NeuROM <span class="citation" data-cites="daby-seesaramNeuROM2024a">(<a href="#ref-daby-seesaramNeuROM2024a" role="doc-biblioref"><strong>daby-seesaramNeuROM2024a?</strong></a>)</span></h3>
+<p><a href="https://pypi.org/project/NeuROM-Py/"><img src="https://img.shields.io/pypi/dm/NeuROM-Py.svg?label=PyPI%20downloads" class="img-fluid" alt="PyPI Downloads"></a> <a href="https://github.com/alexandredabyseesaram/neurom"><img src="https://img.shields.io/github/license/alexandredabyseesaram/neurom.svg" class="img-fluid" alt="GitHub license"></a> <a href="https://doi.org/10.5281/zenodo.13772741"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.13772741.svg" class="img-fluid" alt="DOI"></a></p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Resources/Images/NeuROM_ter.svg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:100.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:75%;">
+<div style="margin-top: 2.5em;">
+
+</div>
+<p>The reduced-order modelling code used to create surrogate models based on an hybridisation of standard reduced-order modelling methods such as the PGD and Deep learning methods is <a href="https://github.com/AlexandreDabySeesaram/NeuROM">public</a> and <a href="https://fenni-pgd-aldabyse-d62c0089e00d70057d8fae6bbaedf6cf1d181c44edf5.gitlabpages.inria.fr/">notebooks with tutorials are also available</a>.</p>
 </div>
 </div>
-  </div>
-</div>
- <!-- /main -->
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -428,6 +495,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

@@ -64,6 +64,13 @@
     ]
   },
   {
+    "objectID": "InternalReports.html",
+    "href": "InternalReports.html",
+    "title": "Internal reports",
+    "section": "",
+    "text": "The reduced-order modelling project\n\nSummer 2024\n\n\n\n\n   MLQ-CT\n\n2025-04-04\n2024-09-16"
+  },
+  {
     "objectID": "VSCode.html",
     "href": "VSCode.html",
     "title": "VS Code",
@@ -75,11 +82,15 @@
     ]
   },
   {
-    "objectID": "InternalReports.html",
-    "href": "InternalReports.html",
-    "title": "Internal reports",
+    "objectID": "Codes.html",
+    "href": "Codes.html",
+    "title": "Codes",
     "section": "",
-    "text": "The reduced-order modelling project\n\nSummer 2024\n\n\n\n\n   MLQ-CT\n\n2025-04-04\n2024-09-16"
+    "text": "gcrack – Solver for Linear Elastic Fracture Mechanics\n    \ngcrack is a finite element solver for linear elastic fracture mechanics, developed during my postdoc at ENSTA (IMSIA). It is built on fenicsx and features:\n\nIncremental crack propagation with indirect load control, ensuring each load step occurs precisely at the propagation threshold.\nSupport for arbitrary anisotropic fracture properties, i.e., \\(G_c(\\varphi)\\).\nBasic support for heterogeneous media.\nA modular architecture for easy extension.\n\n\n\n\nfragma – Phase-Field Fracture Solver\n    \nfragma is a phase-field fracture solver, also developed during my postdoc at ENSTA (IMSIA) and based on fenicsx. Key features include:\n\nIndirect load control via path-following methods.\nCrack propagation in anisotropic media (work in progress).\n\n\n\nNeuROM (daby-seesaramNeuROM2024a?)\n  \n\n\n\n\n\n\n\n\n\n\n\nThe reduced-order modelling code used to create surrogate models based on an hybridisation of standard reduced-order modelling methods such as the PGD and Deep learning methods is public and notebooks with tutorials are also available.",
+    "crumbs": [
+      "Resources",
+      "Codes"
+    ]
   },
   {
     "objectID": "Writing.html",
