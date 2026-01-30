@@ -1,5 +1,5 @@
 ---
-title: Welcome to the UFR Meca Palaiseau's wiki' 
+title: Welcome to the UFR Meca Palaiseau's wiki 
 image: Resources/Images/IPP_Cross_BG.png
 toc: false
 about:
