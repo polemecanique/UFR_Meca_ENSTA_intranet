@@ -1,0 +1,183 @@
+[
+  {
+    "objectID": "Writing.html",
+    "href": "Writing.html",
+    "title": "Communication",
+    "section": "",
+    "text": "The package microtype helps improving the rendering of long text easily\nQuarto is an open-source library that enables to create dynamic scientific documents, presentations, and websites using Markdown, LaTeX, and a variety of programming languages (including python, R, etc.).\nGood practices regarding figure formating\n\nColour science (Crameri, Shephard, and Heron 2020) and colour map choices\n10 rules for better figures in scientific writting (Rougier, Droettboom, and Bourne 2014)\nNice tool for plotting data in latex: PGFplot\n\n\n\n\n\n\nThis PhD template is for writting a PhD thesis with a separate title page. It aims at setting up all the necessary packages and create the base outline of a thesis.\nThis quarto template is for presentations with an ENSTA style.",
+    "crumbs": [
+      "Tips & Tricks",
+      "Communication"
+    ]
+  },
+  {
+    "objectID": "Writing.html#scientific-writing",
+    "href": "Writing.html#scientific-writing",
+    "title": "Communication",
+    "section": "",
+    "text": "The package microtype helps improving the rendering of long text easily\nQuarto is an open-source library that enables to create dynamic scientific documents, presentations, and websites using Markdown, LaTeX, and a variety of programming languages (including python, R, etc.).\nGood practices regarding figure formating\n\nColour science (Crameri, Shephard, and Heron 2020) and colour map choices\n10 rules for better figures in scientific writting (Rougier, Droettboom, and Bourne 2014)\nNice tool for plotting data in latex: PGFplot\n\n\n\n\n\n\nThis PhD template is for writting a PhD thesis with a separate title page. It aims at setting up all the necessary packages and create the base outline of a thesis.\nThis quarto template is for presentations with an ENSTA style.",
+    "crumbs": [
+      "Tips & Tricks",
+      "Communication"
+    ]
+  },
+  {
+    "objectID": "Writing.html#figures-editing",
+    "href": "Writing.html#figures-editing",
+    "title": "Communication",
+    "section": "   Figures editing",
+    "text": "Figures editing\n\nMiscellaneous\n\nScientific drawing with inkscape monthly letter here.\nGood practices regarding figure formating\n\nColour science (Crameri, Shephard, and Heron 2020) and colour map choices\n10 rules for better figures in scientific writting (Rougier, Droettboom, and Bourne 2014)\nNice tool for plotting data in latex: PGFplot",
+    "crumbs": [
+      "Tips & Tricks",
+      "Communication"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the UFR Meca Palaiseau’s wiki’",
+    "section": "",
+    "text": "Just open the corresponding markdown file in the GitHub, modify it however you want and commit the changes, that’s it!\n\n\n\nAdd the resource (pdf, svg, etc.) in the Resources/Documents/YourSubfolderOfChoice folder and reference it in markdown using, [text](Resources/Documents/YourSubfolderOfChoice/YourFile), then commit the changes, done!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-contribute",
+    "href": "index.html#how-to-contribute",
+    "title": "Welcome to the UFR Meca Palaiseau’s wiki’",
+    "section": "",
+    "text": "Just open the corresponding markdown file in the GitHub, modify it however you want and commit the changes, that’s it!\n\n\n\nAdd the resource (pdf, svg, etc.) in the Resources/Documents/YourSubfolderOfChoice folder and reference it in markdown using, [text](Resources/Documents/YourSubfolderOfChoice/YourFile), then commit the changes, done!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Shell.html",
+    "href": "Shell.html",
+    "title": "Shell",
+    "section": "",
+    "text": "Games\nCheck out https://www.learnshell.org to learn online!\n\n\nNavigation\n\npwd: Print the current working directory.\nls: List files and directories in the current directory.\n\nls -a: Show hidden files.\nls -l: Detailed list view.\n\ncd [path]: Change directory.\n\ncd ..: Go up one directory level.\ncd ~: Go to the home directory.\n\n\n\n\nFile and Directory Operations\n\ntouch [file]: Create a new empty file.\nmkdir [directory]: Create a new directory.\ncp [source] [destination]: Copy files or directories.\n\ncp -r [directory] [destination]: Copy directories recursively.\n\nmv [source] [destination]: Move or rename files/directories.\nrm [file]: Delete a file.\n\nrm -r [directory]: Delete a directory and its contents.\n\nrsync [options] [source] [destination]: Synchronize files/directories over ssh.\n\nrsync -av [source] [destination]: Archive mode (preserves permissions, timestamps) with verbose output.\nrsync -az [source] [destination]: Compress data during transfer.\nrsync --progress [source] [destination]: Show progress during synchronization.\n\n\n\n\nViewing File Contents\n\ncat [file]: Display the entire content of a file.\nvim [file]: Open the file in vim text editor\n\n\n\nPermissions\n\nchmod [permissions] [file]: Change file permissions.\n\nExample: chmod 755 script.sh.\n\nchown [user]:[group] [file]: Change file owner.\n\n\n\nSearching and Finding\n\nfind [path] -name [pattern]: Search for files by name.\ngrep [pattern] [file]: Search for a pattern in a file.\n\ngrep -r [pattern] [directory]: Search recursively.\n\n\n\n\nNetworking\n\nping [hostname]: Check connectivity to a host.\ncurl [url]: Fetch data from a URL.\n\n\n\nMiscellaneous\n\necho [text]: Print text to the terminal.\nhistory: Show command history.\nclear: Clear the terminal screen.\n\n\n\nbash/zsh configuration\n\nzsh bindkey \\^U backward-kill-line add this to .zshrc to bring back bash command Ctrl+U\n\nDeletes all text on the current command line from the cursor position to the beginning of the line\n\nnavigating through history using substring searches:\n\nzsh bindkey \"^[[B\" history-substring-search-down\nzsh bindkey \"^[[A\" history-substring-search-up\nbash “[B”: history-search-forward\nbash “[A”: history-search-backward",
+    "crumbs": [
+      "Tips & Tricks",
+      "Shell"
+    ]
+  },
+  {
+    "objectID": "ScientificSocieties.html",
+    "href": "ScientificSocieties.html",
+    "title": "Scientific societies",
+    "section": "",
+    "text": "International\n\nBiophysical Society (BS)\nThe Medical Image Computing and Computer Assisted Intervention Society (MICCAI)\nInternational Society for Magnetic Resonance in Medicine (ISMRM)\nSociety for Cardiovascular Magnetic Resonance (SCMR)\nInternational Association for Computational Mechanics (IACM)\nInternational Union of Theoretical and Applied Mechanics (IUTAM)\nInternational Association for Applied Mathematics and Mechanics (GAMM)\nInternational Society of Biomechanics (ISB)\nWorld Council of Biomechanics (WCB)\nInternational Society for Porous Media (InterPore)\n\n\n\n   US\n\nUnited States Association for Computational Mechanics (USACM)\nAmerican Society of Mechanical Engineers (ASME)\nAmerican Society of Biomechanics (ASB)\nSociety of Engineering Science (SES)\nBiomedical Engineering Society (BMES)\n\n\n\n   Europe\n\nEuropean Community on COmputational Methods in Applied Sciences (ECCOMAS)\nEuropean Society of Biomechanics (ESB)\n\n\n\n   France\n\nComputational Structural Mechanics Association (CSMA)\nAssociation Française de Mécanique (AFM)\nGroupe Français de Mécanique des Matériaux (Mecamat)\nSociété de Biomécanique (SB)\nGdR Mécanique des matériaux et fluides biologiques (MécaBio)\nGdR Physique de la cellule au tissu (CellTiss)\nGdR Ingénierie auGmentée par la donnée, l’Apprentissage et l’IA (I-GAIA)\nPhotoMechanics Association (PMa)\nFrance InterPore Chapter (FIC)",
+    "crumbs": [
+      "Resources",
+      "Scientific societies"
+    ]
+  },
+  {
+    "objectID": "VSCode.html",
+    "href": "VSCode.html",
+    "title": "VS Code",
+    "section": "",
+    "text": "Microsoft Visual Studio Code is a nice text (and much more!) editor.\n\nInstallation\nTo install it on your machine, you can either download from https://code.visualstudio.com, or use HomeBrew:\nbrew install visual-studio-code\n\n\nSync\nYou can sync preferences across machines by signing in with your GitHub (also owned by Microsoft…) account.\n\n\nPlugins\nThanks to plugins, you can use it for many things:\n\nCoding\n\nPython\nGitLens\nGitHub Actions\nGitLab Workflow\nRemote - SSH\n\nLaTeX\n\nLaTeX Workshop\nCode Spell Checker\nCitation Picker for Zotero\n\nJupyter\n\nJupyter\n\nQuarto\n\nQuarto",
+    "crumbs": [
+      "Tips & Tricks",
+      "VS Code"
+    ]
+  },
+  {
+    "objectID": "Zotero.html",
+    "href": "Zotero.html",
+    "title": "Zotero",
+    "section": "",
+    "text": "Zotero is a nice open-source software to manage bibliography.\n\nMisc options (Preferences -&gt; Advanced -&gt; Config Editor)\n\nI usually set intl.locale.requested to en-GB (otherwise the dates are in the horrendous en-US format)\nI also set extensions.zotero.recursiveCollections to true\n\n\n\nBibTeX export\nThe BetterBibTeX plugin allows to export your library in bibtex or biblatex format. If you choose “Keep updated” it will update the bib file every time you modify your library.\nBetterBibTeX preferences:\n\nCitation key formula = auth+year+journal.abbr.alphanum\nIf both DOI & URL, export DOI only\nFields to omit from export: extra, issn, isbn, timestamp, file, eprinttype, eprint, keywords, month, language, abstract, urldate, urlmonth, annotation, langid",
+    "crumbs": [
+      "Tips & Tricks",
+      "Zotero"
+    ]
+  },
+  {
+    "objectID": "InternalReports.html",
+    "href": "InternalReports.html",
+    "title": "Internal reports",
+    "section": "",
+    "text": "The reduced-order modelling project\n\nSummer 2024\n\n\n\n\n   MLQ-CT\n\n2025-04-04\n2024-09-16"
+  },
+  {
+    "objectID": "sDrive.html",
+    "href": "sDrive.html",
+    "title": "sDrive",
+    "section": "",
+    "text": "sDrive is a synchronization tool offered by CNRS.",
+    "crumbs": [
+      "Tips & Tricks",
+      "sDrive"
+    ]
+  },
+  {
+    "objectID": "conferences.html",
+    "href": "conferences.html",
+    "title": "Conferences",
+    "section": "",
+    "text": "List of incomming conferences of interest !",
+    "crumbs": [
+      "Resources",
+      "Conferences"
+    ]
+  },
+  {
+    "objectID": "Seminars.html",
+    "href": "Seminars.html",
+    "title": "Seminars",
+    "section": "",
+    "text": "The UFR Mecanique organises external seminars on monday afternoons, stay tuned for the schedule. More info on the seminar series website.",
+    "crumbs": [
+      "Resources",
+      "Seminars"
+    ]
+  },
+  {
+    "objectID": "Seminars.html#ufr-palaiseau-seminars",
+    "href": "Seminars.html#ufr-palaiseau-seminars",
+    "title": "Seminars",
+    "section": "",
+    "text": "The UFR Mecanique organises external seminars on monday afternoons, stay tuned for the schedule. More info on the seminar series website.",
+    "crumbs": [
+      "Resources",
+      "Seminars"
+    ]
+  },
+  {
+    "objectID": "Seminars.html#local-seminars",
+    "href": "Seminars.html#local-seminars",
+    "title": "Seminars",
+    "section": "Local seminars",
+    "text": "Local seminars\n\nThere a several seminars taking place within the Pôle Méca’s building, the list of those seminars and info can be found on the Pôle Meca’s website",
+    "crumbs": [
+      "Resources",
+      "Seminars"
+    ]
+  },
+  {
+    "objectID": "Seminars.html#other-seminars-of-interest",
+    "href": "Seminars.html#other-seminars-of-interest",
+    "title": "Seminars",
+    "section": "Other seminars of interest",
+    "text": "Other seminars of interest\n\nImaging in Paris: https://imaging-in-paris.github.io\nPhysics-Biology Interface Seminar: http://www.lptms.universite-paris-saclay.fr/seminaires/semphysbio\nIdefix seminar: https://idefix.gitlabpages.inria.fr\nPôle Mécanique internal seminars: https://polemecanique.github.io/internal_seminars/\n\nYou can register to present as well (two possible formats: a shorter 20 min or longer 45 min presentation)",
+    "crumbs": [
+      "Resources",
+      "Seminars"
+    ]
+  },
+  {
+    "objectID": "Git.html",
+    "href": "Git.html",
+    "title": "Git",
+    "section": "",
+    "text": "Git is a useful version control manager.\nPro Git is the ultimate git reference.\nA tutorial made at INRIA: https://tutorial.gitlabpages.inria.fr/git\nTo learn git, there are also multiple games:\n\nhttps://learngitbranching.js.org\nhttps://ohmygit.org",
+    "crumbs": [
+      "Tips & Tricks",
+      "Git"
+    ]
+  }
+]
