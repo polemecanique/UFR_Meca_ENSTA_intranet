@@ -23,6 +23,7 @@ website:
           - Seminars.qmd
           - conferences.qmd
           - ScientificSocieties.qmd
+          - Codes.qmd 
       - section: "Tips & Tricks"
         contents:
           - Git.qmd
