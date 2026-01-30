@@ -1,6 +1,6 @@
 
 ---
-title: Communication
+title: Writing 
 bibliography: Resources/biblio_web.bib
 format:
   html:
