@@ -1,0 +1,36 @@
+---
+title: Codes
+bibliography: Resources/biblio_web.bib
+format:
+  html:
+    page-layout: full
+---
+
+
+### NeuROM [@daby-seesaramNeuROM2024a]
+[![PyPI Downloads](https://img.shields.io/pypi/dm/NeuROM-Py.svg?label=PyPI%20downloads)](
+https://pypi.org/project/NeuROM-Py/)
+[![GitHub license](https://img.shields.io/github/license/alexandredabyseesaram/neurom.svg)](https://github.com/alexandredabyseesaram/neurom)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13772741.svg)](https://doi.org/10.5281/zenodo.13772741)
+
+:::: {.columns}
+
+::: {.column width="25%"}
+
+![](Resources/Images/NeuROM_ter.svg){width="100%" fig-align="center"}
+
+:::
+
+::: {.column width="75%"}
+
+:::: {style='margin-top: 2.5em;'}
+::::
+
+The reduced-order modelling code used to create surrogate models based on an hybridisation of standard reduced-order modelling methods such as the PGD and Deep learning methods is [public](https://github.com/AlexandreDabySeesaram/NeuROM) and [notebooks with tutorials are also available](https://fenni-pgd-aldabyse-d62c0089e00d70057d8fae6bbaedf6cf1d181c44edf5.gitlabpages.inria.fr/).
+
+
+:::
+
+::::
+
+
