@@ -5,4 +5,4 @@ format:
     page-layout: full
 ---
 
-List of incomming conferences of interest ! 
+List of upcoming conferences of interest ! 

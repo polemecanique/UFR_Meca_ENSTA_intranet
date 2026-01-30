@@ -5,8 +5,9 @@ toc: false
 about:
   template: marquee
   links:
-      - text: "{{< iconify fa-brands:gitlab >}} &nbsp; Gitlab"
-      - href: https://polemecanique.github.io/UFR_Meca_Pal_intranet
+    - icon: github
+      text: Github
+      href: https://github.com/polemecanique/UFR_Meca_ENSTA_intranet
 format:
   html:
     page-layout: full
