@@ -16,7 +16,6 @@ format:
 * Imaging in Paris: [https://imaging-in-paris.github.io](https://imaging-in-paris.github.io)
 * Physics-Biology Interface Seminar: [http://www.lptms.universite-paris-saclay.fr/seminaires/semphysbio](http://www.lptms.universite-paris-saclay.fr/seminaires/semphysbio)
 * Idefix seminar: [https://idefix.gitlabpages.inria.fr](https://idefix.gitlabpages.inria.fr)
-* Pôle Mécanique internal seminars: [https://polemecanique.github.io/internal_seminars/](https://polemecanique.github.io/internal_seminars/)
-  * You can register to present as well (two possible formats: a shorter 20 min or longer 45 min presentation)
+* Labs within the île-de-France Region via the F2M [https://f2m.cnrs.fr/dans-les-laboratoires/seminaires-des-laboratoires/](https://f2m.cnrs.fr/dans-les-laboratoires/seminaires-des-laboratoires/). 
 
 

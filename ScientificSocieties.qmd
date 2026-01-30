@@ -40,6 +40,7 @@ format:
 * [Computational Structural Mechanics Association (CSMA)](http://www.csma.fr)
 * [Association Française de Mécanique (AFM)](http://www.afm.asso.fr)
 * [Groupe Français de Mécanique des Matériaux (Mecamat)](http://www.mecamat.asso.fr)
+* [Fédération Francilienne de Mécanique (F2M)](https://f2m.cnrs.fr/la-federation/en-bref/)
 * [Société de Biomécanique (SB)](http://www.biomecanique.org)
 * [GdR Mécanique des matériaux et fluides biologiques (MécaBio)](http://www-liphy.ujf-grenoble.fr/gdr-mecabio)
 * [GdR Physique de la cellule au tissu (CellTiss)](http://nonlineaire.univ-lille1.fr/GDR3070)
