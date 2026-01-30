@@ -46,7 +46,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to the UFR Meca Palaiseau’s wiki’",
+    "title": "Welcome to the UFR Meca Palaiseau’s wiki",
     "section": "",
     "text": "Just open the corresponding markdown file in the GitHub, modify it however you want and commit the changes, that’s it!\n\n\n\nAdd the resource (pdf, svg, etc.) in the Resources/Documents/YourSubfolderOfChoice folder and reference it in markdown using, [text](Resources/Documents/YourSubfolderOfChoice/YourFile), then commit the changes, done!",
     "crumbs": [
@@ -56,7 +56,7 @@
   {
     "objectID": "index.html#how-to-contribute",
     "href": "index.html#how-to-contribute",
-    "title": "Welcome to the UFR Meca Palaiseau’s wiki’",
+    "title": "Welcome to the UFR Meca Palaiseau’s wiki",
     "section": "",
     "text": "Just open the corresponding markdown file in the GitHub, modify it however you want and commit the changes, that’s it!\n\n\n\nAdd the resource (pdf, svg, etc.) in the Resources/Documents/YourSubfolderOfChoice folder and reference it in markdown using, [text](Resources/Documents/YourSubfolderOfChoice/YourFile), then commit the changes, done!",
     "crumbs": [
